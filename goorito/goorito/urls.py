@@ -23,6 +23,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/token/', obtain_auth_token, name='token_obtain_pair'),
-    path('api/get-details/',views.get_details)
+    path('api/get-details',views.get_details)
 ]
 
